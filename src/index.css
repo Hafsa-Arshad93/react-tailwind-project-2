@@ -1,0 +1,37 @@
+@import "tailwindcss";
+ @font-face {
+  font-family: 'Dancing Script';
+  src: url('./assets/fonts/Dancing_Script-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal; /* ya italic agar file italic hai */
+}
+
+
+/* Noto Sans */
+@font-face {
+  font-family: 'Noto Sans';
+  src: url('./assets/fonts/Noto_Sans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* Noto Sans Linear B */
+@font-face {
+  font-family: 'Noto Sans Linear B';
+  src: url('./assets/fonts/Noto_Sans_Linear_B-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* Playwrite DE SAS */
+@font-face {
+  font-family: 'Playwrite DE SAS';
+  src: url('./assets/fonts/Playwrite_DE_SAS-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* Playwrite MX Guides */
+@font-face {
+  font-family: 'Playwrite MX Guides';
+  src: url('./assets/fonts/Playwrite_MX_Guides-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
