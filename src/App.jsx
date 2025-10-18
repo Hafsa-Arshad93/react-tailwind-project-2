@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Outlet } from "react-router-dom";
+import {  Routes, Route, Outlet } from "react-router-dom";
 import Navbar from "./Component/Header/Navbar";
 import Footer from "./Component/Footer/Footer";
 import Home from "./Pages/Home";
@@ -20,7 +20,7 @@ function Layout() {
 
 function App() {
   return (
-    <BrowserRouter>
+ 
       <Routes>
         {/* Routes using Layout */}
         <Route element={<Layout />}>
@@ -34,7 +34,6 @@ function App() {
         {/* Catch-all 404 route without Navbar/Footer */}
         <Route path="*" element={<div className="text-center py-20 text-2xl">Page not found</div>} />
       </Routes>
-    </BrowserRouter>
   );
 }
 
