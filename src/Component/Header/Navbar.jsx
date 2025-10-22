@@ -15,143 +15,165 @@ import logo13 from '../../assets/logo/logo13.png'
 
 function Navbar() {
   return (
-    <header className="text-gray-950 body-font bg-gradient-to-r from-amber-200 via-pink-200 to-rose-300 border-2 border-solid border-black "
-      style={{ fontFamily: 'Dancing Script', fontStyle: 'italic', letterSpacing: 4, fontSize: '20px' }}>
+    
+      <header className=" w-full text-gray-950 body-font bg-gradient-to-r from-amber-200 via-pink-200 to-rose-300 border-1 border-solid border-black "
+        style={{ fontFamily: 'Dancing Script', fontStyle: 'italic', letterSpacing: 4, fontSize: '20px' }}>
 
-      {/* Logos Section */}
-      <div className="container mx-auto flex flex-wrap md:flex-row justify-between items-center p-1 ">
+        {/* Logos Section */}
+        <div className="w-full flex flex-wrap md:flex-row  justify-between items-center p-1 ">
 
-        {/* ✅ Logo 1 */}
-        <div className=" flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo1}
-            alt="Logo 1"
-            className="w-16 h-16 p-2 bg-orange-200 rounded-xl"
-          />
+          {/* ✅ Logo 1 */}
+          <div className="w-1/4  sm:w-1/6 md:w-1/12  flex items-center justify-center mb-4  md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo1}
+              alt="Logo 1"
+              className="w-full h-full bg-orange-200 rounded-xl object-contain"
+            />
+          </div>
+
+
+          {/* ✅ Logo 2 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo2}
+              alt="Logo 2"
+              className="w-full h-full p-2 bg-stone-300 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 3 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo3}
+              alt="Logo 3"
+              className="w-full h-full p-2 bg-red-300 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 4 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo4}
+              alt="Logo 4"
+              className="w-full h-full p-2 bg-emerald-200 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 5 */}
+          <div className="w-1/4 sm:w-1/6 md:w-1/12  flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo5}
+              alt="Logo 5"
+              className="w-full h-full p-2 bg-teal-100 rounded-xl "
+            />
+          </div>
+
+          {/* ✅ Logo 6 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo6}
+              alt="Logo 6"
+              className="w-full h-full p-2 bg-yellow-100 rounded-xl"
+            />
+          </div>
+          {/* ✅ Logo 8 */}
+          <div className="w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo8}
+              alt="Logo 8"
+              className="w-full h-full p-2 bg-rose-100 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 9 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo9}
+              alt="Logo 9"
+              className="w-full h-full p-2 bg-indigo-200 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 10 */}
+          <div className="w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo10}
+              alt="Logo 10"
+              className="w-full h-full p-2 bg-sky-300 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 11 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo11}
+              alt="Logo 11"
+              className="w-full h-full p-2 bg-violet-100 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 12 */}
+          <div className="w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo12}
+              alt="Logo 12"
+              className="w-full h-full p-2 bg-lime-200 rounded-xl"
+            />
+          </div>
+
+          {/* ✅ Logo 13 */}
+          <div className=" w-1/4 sm:w-1/6 md:w-1/12 flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
+            <img
+              src={logo13}
+              alt="Logo 13"
+              className="w-full h-full p-2 bg-yellow-100 rounded-xl"
+            />
+          </div>
         </div>
 
-        {/* ✅ Logo 2 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo2}
-            alt="Logo 2"
-            className="w-16 h-16 p-2 bg-stone-300 rounded-xl"
-          />
-        </div>
+        {/* Navigation Links */}
+        <div>
+<nav className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 w-full justify-items-center items-center
+ text-gray-900 font-semibold  py-0">
 
-        {/* ✅ Logo 3 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo3}
-            alt="Logo 3"
-            className="w-16 h-16 p-2 bg-red-300 rounded-xl"
-          />
-        </div>
+  <Link 
+    to="/" 
+    className="flex items-center justify-center w-full h-full px-4 py-2 text-center  border border-black ">
+    Home
+  </Link>
 
-        {/* ✅ Logo 4 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo4}
-            alt="Logo 4"
-            className="w-16 h-16 p-2 bg-emerald-200 rounded-xl"
-          />
-        </div>
+  <Link 
+    to="/about" 
+    className="flex items-center justify-center w-full h-full px-4 py-2 text-center border border-black ">
+    About
+  </Link>
 
-        {/* ✅ Logo 5 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo5}
-            alt="Logo 5"
-            className="w-16 h-16 p-2 bg-teal-100 rounded-xl "
-          />
-        </div>
+  <Link 
+    to="/floral-categories" 
+    className="flex items-center justify-center w-full h-full px-4 py-2 text-center border border-black ">
+    Floral Categories
+  </Link>
 
-        {/* ✅ Logo 6 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo6}
-            alt="Logo 6"
-            className="w-16 h-16 p-2 bg-yellow-100 rounded-xl"
-          />
-        </div>
-        {/* ✅ Logo 8 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo8}
-            alt="Logo 8"
-            className="w-16 h-16 p-2 bg-rose-100 rounded-xl"
-          />
-        </div>
+  <Link 
+    to="/signature-scents" 
+    className="flex items-center justify-center w-full h-full px-4 py-2 text-center  border border-black ">
+    Signature Scents
+  </Link>
 
-        {/* ✅ Logo 9 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo9}
-            alt="Logo 9"
-            className="w-16 h-16 p-2 bg-indigo-200 rounded-xl"
-          />
-        </div>
+  <Link 
+    to="/contact" 
+    className="flex items-center justify-center w-full h-full px-4 py-2 text-center  border border-black ">
+    Contact
+  </Link>
 
-        {/* ✅ Logo 10 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo10}
-            alt="Logo 10"
-            className="w-16 h-16 p-2 bg-sky-300 rounded-xl"
-          />
-        </div>
+</nav>
 
-        {/* ✅ Logo 11 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo11}
-            alt="Logo 11"
-            className="w-16 h-16 p-2 bg-violet-100 rounded-xl"
-          />
-        </div>
+</div>
 
-        {/* ✅ Logo 12 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo12}
-            alt="Logo 12"
-            className="w-16 h-16 p-2 bg-lime-200 rounded-xl"
-          />
-        </div>
+    
 
-        {/* ✅ Logo 13 */}
-        <div className="flex items-center justify-center mb-4 md:mb-0 transform transition duration-500 hover:scale-105 shadow-lg rounded-xl border-2">
-          <img
-            src={logo13}
-            alt="Logo 13"
-            className="w-16 h-16 p-2 bg-yellow-100 rounded-xl"
-          />
-        </div>
-      </div>
-
-      {/* Navigation Links */}
-      <div className="w-full flex flex-wrap md:flex-row items-center bg-gradient-to-r from-amber-100 via-pink-100 to-rose-200
- p-1 border-2 border-solid border-black ">
-        <nav className="flex w-full justify-between text-gray-900 font-semibold">
-          <Link to="/" className="flex-1 text-center hover:text-gray-700 transition duration-300">
-            Home
-          </Link>
-          <Link to="/about" className="flex-1 text-center hover:text-gray-700 transition duration-300">
-            About
-          </Link>
-          <Link to="/floral-categories" className="flex-1 text-center hover:text-gray-700 transition duration-300">
-            Floral Categories
-          </Link>
-          <Link to="/signature-scents" className="flex-1 text-center hover:text-gray-700 transition duration-300">
-            Signature Scents
-          </Link>
-          <Link to="/contact" className="flex-1 text-center hover:text-gray-700 transition duration-300">
-            Contact
-          </Link>
-        </nav>
-      </div>
-
-    </header>
+      </header>
+  
   )
 }
 

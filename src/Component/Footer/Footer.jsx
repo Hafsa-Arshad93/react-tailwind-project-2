@@ -25,7 +25,7 @@ function Footer() {
             </h3>
 
             {/* icons start below */}
-            <div className="flex space-x-17  py-5 text-gray-700 justify-center md:justify-end">
+            <div className="gap-16 py-5 text-gray-700  justify-items-center grid grid-cols-2 sm:grid-cols-4">
               <a href="#" className="hover:text-pink-700">
                 <svg
                   fill="currentColor"

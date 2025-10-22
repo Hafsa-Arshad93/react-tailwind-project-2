@@ -3,10 +3,10 @@ import React from "react";
 function ContactSection() {
   return (
     <section
-      className="min-h-screen bg-gradient-to-r from-rose-100 via-pink-100 to-amber-50 flex items-center justify-center py-16 px-6 border-2"
+      className="w-full min-h-screen bg-gradient-to-r from-rose-100 via-pink-100 to-amber-50 flex items-center justify-center py-16 px-6 border-2"
       style={{ fontFamily: "Dancing Script", letterSpacing: "1px", fontStyle: "italic" }}
     >
-      <div className="container mx-auto max-w-2xl bg-white rounded-3xl shadow-xl p-10 relative">
+      <div className="w-full mx-auto max-w-2xl bg-white rounded-3xl shadow-xl p-10 relative">
 
         <h2 className="text-4xl font-bold text-pink-700 mb-6 text-center">
           Contact Us
@@ -54,7 +54,7 @@ function ContactSection() {
         </form>
 
         <div className="mt-10 text-center text-2xl text-gray-700">
-          <p>Email: <span className="text-pink-600 font-semibold">floralLoveperfumes40@gmail.com</span></p>
+          <p>Email: <span className="text-pink-600 font-semibold break-words ">floralLoveperfumes40@gmail.com</span></p>
           <p>Phone: <span className="text-pink-600 font-semibold">+92-300-1234567</span></p>
         </div>
       </div>

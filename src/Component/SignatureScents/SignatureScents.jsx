@@ -15,7 +15,7 @@ function SignatureScents() {
       >
         <div className="container mx-auto flex flex-col items-center">
           {/* Section Heading */}
-          <h1 className="sm:text-4xl text-3xl font-bold title-font text-pink-700 text-center mb-8 mt-5">
+          <h1 className="sm:text-4xl text-3xl font-bold title-font text-pink-700 text-center mb-8 mt-5 animate__animated animate__animated animate__animated animate__lightSpeedInRight">
             Our Floral Signature Scents
           </h1>
         </div>

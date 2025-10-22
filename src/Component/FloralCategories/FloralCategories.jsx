@@ -9,11 +9,11 @@ import gardenImg from "../../assets/FloralCategories/garden.jpg";
 function FloralCategories() {
   return (
     <section
-      className="text-gray-700 body-font bg-gradient-to-r from-pink-50 via-rose-100 to-amber-50 py-10 px-1 border-2"
+      className="w-full text-gray-700 body-font bg-gradient-to-r from-pink-50 via-rose-100 to-amber-50 py-10 px-1 border-2"
       style={{ fontFamily: 'Dancing Script', fontStyle: 'italic', letterSpacing: 4, fontSize: '20px' }}>
       <div className="container mx-auto flex flex-col items-center">
         {/* 🌸 Section Heading */}
-        <h1 className="sm:text-4xl text-3xl font-bold title-font text-pink-700 text-center mb-3">
+        <h1 className="sm:text-4xl text-3xl pb-4 font-bold title-font text-pink-700 text-center mb-3 animate__animated animate__flip">
           Our Floral Fragrance Collection
         </h1>
 
