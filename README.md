@@ -1,48 +1,28 @@
-# 🌸 Random Advice Generator App
+# Floral Love – Perfume Website
 
-Welcome to my **Random Advice Generator App** — a fun React + Tailwind project that gives you a new random piece of advice every time you click **“Spin It”** 🌀  
+A responsive perfume website built with React and Tailwind CSS, showcasing elegant fragrance collections with a soft and modern layout.
 
-🌱 Built as part of my learning journey at **SMIT (Saylani Mass IT Training)** under the guidance of **Sir Aqleem**.
+## Features
+- Built with React (Vite) and Tailwind CSS
+- Fully responsive for mobile and desktop
+- Smooth hover and gradient effects
+- Organized component-based structure
+- Simple, elegant, and visually appealing design
 
----
+## Live Demo
+[View Project on Vercel](https://react-tailwind-project-2.vercel.app)
 
-## 🚀 Live Demo  
-👉 [View on Vercel](https://react-tailwind-project-2.vercel.app/)
+## Tech Stack
+- React JS
+- Tailwind CSS
+- Vite
 
----
 
-## 🛠️ Tech Stack
-- ⚛️ **React.js** — for building UI components  
-- 🎨 **Tailwind CSS** — for modern responsive design  
-- 🌐 **Advice Slip API** — for fetching random advice  
-- ⚡ **Vite** — for fast React setup  
+## About
+This project was created as part of a React and Tailwind practice session.
+It demonstrates responsive layouts, component structure, and modern design patterns.
 
----
-
-## 🎯 Features
-✅ Generates random advice on button click  
-✅ Clean and minimal UI  
-✅ Fully responsive with Tailwind CSS  
-✅ Uses React Hooks (`useState`, `useEffect`)  
-
----
-
-## 🧠 What I Learned
-- Fetching API data in React  
-- Managing state with hooks  
-- Styling with Tailwind classes  
-- Building and deploying with Vercel  
-
----
-
-## 👩‍💻 Author
+## Author
 **Hafsa Arshad**  
-📚 Student at SMIT | React & Frontend Learner  
-
-🔗 [LinkedIn](https://www.linkedin.com/in/hafsa-arshad-52ba71317/)
-🖥️ [Live Demo](https://react-tailwind-project-2.vercel.app/)
-
----
-
-### 🏷️ Tags
-`#React` `#TailwindCSS` `#Frontend` `#API` `#SMIT` `#WebDevelopment` `#LearningByBuilding` `#HafsaCodes`
+Developed during training at **SMIT (Saylani Mass IT Training)** under the guidance of **Sir Aqleem**.  
+[LinkedIn Profile](https://www.linkedin.com/in/hafsa-arshad-52ba71317/)
