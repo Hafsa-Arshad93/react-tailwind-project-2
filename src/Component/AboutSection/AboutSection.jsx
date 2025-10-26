@@ -31,7 +31,7 @@ function About() {
 
         {/* Text Section */}
         <div className="text-gray-800 w-full lg:w-1/2 object-cover mt-8 lg:mt-0">
-          <p className="text-lg leading-relaxed mb-2">
+          <p className="text-lg leading-relaxed mb-2 text-justify [text-justify:inter-word]">
             Born from a deep passion for elegance and scent,{" "}
             <span className="font-semibold text-rose-700">Floral Love</span>{" "}
             began as a dream — where every drop of perfume whispers a love story.
@@ -42,7 +42,7 @@ function About() {
             meant to last forever.
           </p>
 
-          <p className="text-lg leading-relaxed mb-1">
+          <p className="text-lg leading-relaxed mb-1 text-justify [text-justify:inter-word]">
             Each fragrance is more than a scent —{" "}
             <span className="font-semibold text-rose-700">
               it’s a heartbeat of romance,
@@ -51,14 +51,14 @@ function About() {
             creating timeless expressions of beauty and passion.
           </p>
 
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed text-justify [text-justify:inter-word]">
             At{" "}
             <span className="font-semibold text-rose-700">Floral Love</span>, perfume
             isn’t just worn — it’s felt. It wraps your soul in elegance and leaves
             behind a trace of pure affection.
           </p>
 
-          <p className="text-xl text-pink-700 font-semibold mt-2 italic">
+          <p className="text-xl text-pink-700 font-semibold mt-2 italic text-justify [text-justify:inter-word]">
             Let every spray remind you — love is the fragrance of the heart.
           </p>
         </div>
