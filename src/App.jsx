@@ -1,4 +1,4 @@
-import {  Routes, Route, Outlet } from "react-router-dom";
+import { Routes, Route, Outlet, BrowserRouter } from "react-router-dom";
 import Navbar from "./Component/Header/Navbar";
 import Footer from "./Component/Footer/Footer";
 import Home from "./Pages/Home";
@@ -7,33 +7,31 @@ import Contact from "./Component/Contact/ContactSection";
 import FloralCategories from "./Component/FloralCategories/FloralCategories";
 import SignatureScents from "./Component/SignatureScents/SignatureScents";
 
-// Layout for valid pages
-function Layout() {
-  return (
-    <>
-      <Navbar />
-      <Outlet /> {/* Renders the current route component */}
-      <Footer />
-    </>
-  );
-}
+
 
 function App() {
   return (
- 
-      <Routes>
-        {/* Routes using Layout */}
-        <Route element={<Layout />}>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/floral-categories" element={<FloralCategories />} />
-          <Route path="/signature-scents" element={<SignatureScents />} />
-          <Route path="/contact" element={<Contact />} />
-        </Route>
+    <BrowserRouter>
 
-        {/* Catch-all 404 route without Navbar/Footer */}
-        <Route path="*" element={<div className="text-center py-20 text-2xl">Page not found</div>} />
+      <Navbar />
+    
+
+
+
+
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/floral-categories" element={<FloralCategories />} />
+        <Route path="/signature-scents" element={<SignatureScents />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
+
+    </BrowserRouter>
+
   );
 }
 

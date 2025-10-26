@@ -19,13 +19,13 @@ function Footer() {
           </div>
 
           {/*  Quick Links */}
-          <div className="md:w-1/3 flex flex-col items-center md:items-end space-y-3">
-            <h3 className="text-2xl font-semibold mb-1 text-center md:text-right">
+          <div className="md:w-1/3 flex flex-col items-center md:items-end space-y-3 ">
+            <h3 className="text-2xl font-semibold mb-1 text-center md:text-right whitespace-nowrap">
               Follow Us For More Updates
             </h3>
 
             {/* icons start below */}
-            <div className="gap-16 py-5 text-gray-700  justify-items-center grid grid-cols-2 sm:grid-cols-4">
+            <div className="gap-20 py-5 text-gray-700  justify-items-center grid grid-cols-2 sm:grid-cols-4">
               <a href="#" className="hover:text-pink-700">
                 <svg
                   fill="currentColor"
