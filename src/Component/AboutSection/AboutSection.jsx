@@ -30,40 +30,38 @@ function About() {
         </div>
 
         {/* Text Section */}
-        {/* Text Section */}
-<div className="text-gray-800 w-full lg:w-1/2 object-cover mt-8 lg:mt-0">
-  <p className="text-lg leading-relaxed mb-2 text-justify [text-justify:inter-word]">
-    Inspired by a passion for comfort and craftsmanship,{" "}
-    <span className="font-semibold text-rose-700">Tehzeeb Furniture</span>{" "}
-    began with a vision — to create spaces that reflect warmth, beauty, and harmony.
-    We blend traditional artistry with modern design to craft{" "}
-    <span className="font-semibold text-rose-700">
-      furniture that speaks of elegance, strength, and timeless charm
-    </span>{" "}
-    for every home.
-  </p>
+        <div className="text-gray-800 w-full lg:w-1/2 object-cover mt-8 lg:mt-0">
+          <p className="text-lg leading-relaxed mb-2">
+            Born from a deep passion for elegance and scent,{" "}
+            <span className="font-semibold text-rose-700">Floral Love</span>{" "}
+            began as a dream — where every drop of perfume whispers a love story.
+            We blend nature’s soft petals with rare essences to capture{" "}
+            <span className="font-semibold text-rose-700">
+              emotions, memories, and moments
+            </span>{" "}
+            meant to last forever.
+          </p>
 
-  <p className="text-lg leading-relaxed mb-1 text-justify [text-justify:inter-word]">
-    Each piece is more than decor —{" "}
-    <span className="font-semibold text-rose-700">
-      it’s a story of skill and dedication,
-    </span>{" "}
-    shaped by hands that value perfection and hearts that understand comfort.
-    Our craftsmen bring life to wood, turning imagination into enduring beauty.
-  </p>
+          <p className="text-lg leading-relaxed mb-1">
+            Each fragrance is more than a scent —{" "}
+            <span className="font-semibold text-rose-700">
+              it’s a heartbeat of romance,
+            </span>{" "}
+            a memory, a warm embrace. Our artisans pour love into every bottle,
+            creating timeless expressions of beauty and passion.
+          </p>
 
-  <p className="text-lg leading-relaxed text-justify [text-justify:inter-word]">
-    At{" "}
-    <span className="font-semibold text-rose-700">Tehzeeb Furniture</span>, we believe
-    furniture isn’t just placed — it’s cherished. It fills your home with
-    warmth, style, and a sense of belonging that lasts for generations.
-  </p>
+          <p className="text-lg leading-relaxed">
+            At{" "}
+            <span className="font-semibold text-rose-700">Floral Love</span>, perfume
+            isn’t just worn — it’s felt. It wraps your soul in elegance and leaves
+            behind a trace of pure affection.
+          </p>
 
-  <p className="text-xl text-pink-700 font-semibold mt-2 italic text-center">
-    Let every piece remind you — comfort is the true art of living.
-  </p>
-</div>
-
+          <p className="text-xl text-pink-700 font-semibold mt-2 italic">
+            Let every spray remind you — love is the fragrance of the heart.
+          </p>
+        </div>
 
       </div>
     </section>
